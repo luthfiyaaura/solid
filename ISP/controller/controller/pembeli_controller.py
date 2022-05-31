@@ -1,6 +1,6 @@
 from interface.pembeli_operation import PembeliOperation
 
-class PembeliController(PembeliController):
+class PembeliController(PembeliOperation):
     
     def memesan_pesanan(self):
-        print("Pembeli melakuksan pesanan")
+        print("Pembeli melakukan pesanan")
